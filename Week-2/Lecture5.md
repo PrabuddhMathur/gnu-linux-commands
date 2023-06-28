@@ -214,7 +214,7 @@ himBHs
 ```
 
 * Let's run a command to check if there can be less number of flags.
-	- ` bash ` : spawn a subshell
+	- ` bash ` : spawn a childshell
 	- ` -c `  : consider first non-option argument as command
 	- ` \ ` : escape character to stop early interpretation of ` $- `
 ```terminal
